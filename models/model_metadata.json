@@ -1,0 +1,43 @@
+{
+    "trained_at": "2025-11-30T05:22:16.209381",
+    "best_parameters": {
+        "window_size": 14,
+        "neurons": 64,
+        "batch_size": 16,
+        "learning_rate": 5e-05,
+        "epochs": 200,
+        "num_layers": 1
+    },
+    "evaluation_metrics_test_set": {
+        "mape": 0.02356325314749919,
+        "rmse": 2887.3282280546077,
+        "mae": 2288.35826268746,
+        "r2": 0.9729856320890883
+    },
+    "features_used": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "SMA_10",
+    "SMA_50",
+    "EMA_12",
+    "EMA_26",
+    "RSI_14",
+    "MACD",
+    "MACD_signal",
+    "MACD_hist",
+    "ATR_14",
+    "BB_middle",
+    "BB_high",
+    "BB_low",
+    "BB_width",
+    "OBV",
+    "OBV_chg",
+    "STOCH",
+    "WILLR",
+    "ret_1d",
+    "log_ret_1d"
+    ]
+}
