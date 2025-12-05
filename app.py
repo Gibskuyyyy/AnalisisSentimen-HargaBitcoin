@@ -3,7 +3,7 @@ import sys
 import os
 
 # Tambahkan root project ke PYTHONPATH
-sys.path.append(os.path.join(os.path.dirname(__file__), 'utils'))
+sys.path.append(os.path.join(os.getcwd(), "utils"))
 
 import streamlit as st
 from datetime import datetime
